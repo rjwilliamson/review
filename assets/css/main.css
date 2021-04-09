@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html,body{
+	height:100%;
+}
+header{
+	background-color:#E3E3E3;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 6%, rgba(255,255,255,1) 93%, rgba(0,0,0,1) 100%);
+	padding:1rem;
+	border-bottom:1px solid #000;
+}
+header>h1{
+	font-family: 'Permanent Marker', cursive;
+	font-size:4rem;
+	text-align:center;
+}
+
+.form-container{
+
+	width:50%;
+	margin:5rem auto;
+}
+
+.form-container>form>input{
+	display: block;
+	margin:1rem auto;
+}
+
+.form-container>form>input[type="text"],.form-container>form>input[type="password"],
+.form-container>form>input[type="email"]{
+	width:40%;
+	height:30px;
+	padding:.5rem;
+	font-size:1.3rem;
+	border-radius: 10px;
+	border:1px solid #ccc;
+}
+
+.form-container>form>input[type="text"],.form-container>form>input[type="password"]:focus{
+	outline: none;
+	
+}
+.form-container>form>input[type="submit"]{
+	width:40%;
+	background-color:#fff;
+	font-size:1.2rem;
+	padding:.5rem;
+	border:1px solid #ccc;
+	border-radius:10px;
+
+}
+
+.form-container>form>a{
+	display: block;
+	text-align: center;
+	color:#000;
+
+}
+
+#search-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+
+
+}
+
+#search-container>form>input[type="search"]{
+
+	width:50vw;
+	height:50px;
+	padding:.5rem;
+	font-size:1.5rem;
+}
+
+#search-container>form>button{
+
+    height:50px;
+	padding:.5rem;
+	font-size:1.5rem;
+	background-color:#fff;
+	
+}
+
+
+.session_login_message{
+	margin-top:2rem;
+	text-align: center;
+	
+
+}
+
+.session_login_message h2{
+	
+	font-size:1.5rem;
+	background:#F4F1F1;
+	font-family: tahoma;
+	display: inline-block;
+	padding:1rem;
+	border:1px solid #000;
+	border-radius: 10px;
+}
+
+nav{
+	background-color:#EFEDED;
+	padding:1rem;
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+	padding:.5rem;
+}
+nav a{
+	
+	text-decoration: none;
+	font-size:1.3rem;
+	color:#000;
+	font-family: tahoma;
+	font-weight:bold;
+
+}
+
+.form_page_errors{
+	background:red;
+	color:#fff;
+	margin:1rem auto;
+	text-align: center;
+	padding:1rem;
+	width:50%;
+	border-radius: 10px;
+}
+
+
+section#company_header{
+	width:100%;
+	padding:1rem;
+	text-align: center;
+}
+
+section#company_header>h2{
+	font-family: tahoma;
+	font-size: 2rem;
+	text-transform:capitalize;
+}
+
+
+section#comments{
+	width:60%;
+	margin:5rem auto;
+	background:#EDE6E6;
+	border-radius: 10px;
+	padding:1rem;
+	font-family: tahoma;
+
+}
+
+section#comments>p{
+	font-weight:bold;
+	text-align: center;
+	font-size:1.5rem;
+}
+
+section#comments>textarea{
+	display: block;
+	resize: none;
+	width:50%;
+	margin:1rem auto;
+	min-height:100px;
+}
+
+section#comments>button{
+	margin-left:24%;
+	background-color:#fff;
+	font-size:1.1rem;
+	padding:.5rem;
+	border-radius: 5px;
+}
+
+
+#comment_results{
+	width:50%;
+	margin:2rem auto;
+
+}
+
+
+#comment_results>p{
+	font-size:1.5rem;
+	margin-top:1rem;
+	text-decoration: underline;
+}
+
+
+section#accounts{
+	width:60%;
+	margin:5rem auto;
+	text-align: center;
+	font-family: tahoma;
+}
+
+section#accounts>p{
+
+	font-size:1.5rem;
+	padding:1rem;
+}
+
+section#accounts>ul>li{
+	font-size:1.2rem;
+	padding:.5rem;
+
+}
+
+section#accounts>ul>li>a{
+	color:#000;
+}
+
+
+section#warning_comments{
+
+	width:50%;
+	margin:1rem auto;
+	background:#000;
+	color:#fff;
+	padding:2rem;
+
+}
+
+section#warning_comments>p{
+
+	text-align: center;
+	font-size:2rem;
+	color:#F31616
+}
+
+
+
+
+
